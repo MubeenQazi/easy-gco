@@ -14,6 +14,7 @@ var option = {
     series: [
         {
             type: 'pie',
+            center: ['33%', '50%'],
             radius: ['60%', '80%'],
             avoidLabelOverlap: false,
             padAngle: 3,
