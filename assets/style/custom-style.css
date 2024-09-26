@@ -1,0 +1,22 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #FAF9F6;
+  }
+  .nav-link.active {
+    background-color: #ffebf1;
+    color: #FF3A54 !important;
+    border-color: #FF3A54 !important;
+  }
+  .chartHeight{
+    height: 400px;
+  }
+  .chartHeight.chartH-sm{
+    height: 230px;
+  }
+
+  .light-gray-color{
+    color: #646464CC;
+  }
+  .custom-shadow{
+    box-shadow: 0px 20px 40px 0px #0000000F;
+  }
