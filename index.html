@@ -78,10 +78,8 @@
         <!-- Main Dashboard -->
         <div class="container-fluid p-4 max-w-board">
             <div class="row mb-4">
-                <div class="col-12 col-lg-6 d-flex justify-content-between align-items-center order-1 order-lg-0 mt-3 mt-lg-0">
-                    <h4>Account Area</h4>
-                    <!-- <span>Choose date</span> -->
-                    <!-- <input type="date" class="form-control w-auto" /> -->
+                <div class="col-6 col-lg-6 d-flex justify-content-between align-items-center order-1 order-lg-0 mt-3 mt-lg-0">
+                    <h4 class="m-0 md-font">Account Area</h4>
                 </div>
                 <div class="col-12 col-lg-6 d-flex justify-content-between align-items-center">
                     <!-- Hamburger Toggle Button for Mobile -->
@@ -113,15 +111,21 @@
                         </div>
                     </div>
                 </div>
+                <div class="col-6 mt-3 order-2 order-lg-1 d-flex  justify-content-start justify-content-md-end justify-content-lg-start align-items-center">
+                    <span class="d-flex align-items-center gap-2">
+                        Choose date
+                        <img src="./assets/images/calendar.svg" alt="Date Calendar">
+                    </span>
+                </div>
             </div>
 
             <!-- Summary Cards -->
-            <div class="row g-2 g-sm-4">
+            <div class="row g-2 g-md-3 g-lg-3 g-xl-4">
                 <div class="col-6 col-md-3">
                     <div class="card custom-shadow border-0">
                         <div class="card-body ">
                             <div class="d-flex justify-content-between">
-                                <h5 class="card-title m-0 sm-font">
+                                <h5 class="card-title m-0 sm-font base-fs">
                                     <img src="./assets/images/sales.svg" alt="Icon" class="sm-img"> Sales
                                 </h5>
                                 <img src="./assets/images/arrow.svg" alt="arrow" class="sm-img">
@@ -134,7 +138,7 @@
                     <div class="card custom-shadow border-0">
                         <div class="card-body">
                             <div class="d-flex justify-content-between">
-                                <h5 class="card-title m-0 sm-font"> 
+                                <h5 class="card-title m-0 sm-font base-fs"> 
                                     <img src="./assets/images/orders.svg" alt="Icon" class="sm-img">
                                     Orders
                                 </h5>
@@ -148,7 +152,7 @@
                     <div class="card custom-shadow border-0">
                         <div class="card-body ">
                             <div class="d-flex justify-content-between">
-                                <h5 class="card-title m-0 sm-font">
+                                <h5 class="card-title m-0 sm-font base-fs">
                                     <img src="./assets/images/products.svg" alt="Icon" class="sm-img">
                                     Products
                                 </h5>
@@ -162,7 +166,7 @@
                     <div class="card custom-shadow border-0">
                         <div class="card-body">
                             <div class="d-flex justify-content-between">
-                                <h5 class="card-title m-0 sm-font">
+                                <h5 class="card-title m-0 sm-font base-fs">
                                     <img src="./assets/images/customers.svg" alt="Icon" class="sm-img">
                                     Customers
                                 </h5>
@@ -174,8 +178,8 @@
                 </div>
             </div>
 
-            <!-- Sales Chart & Other Widgets -->
-            <div class="row g-3 mt-4">
+            <!-- Chart Widgets -->
+            <div class="row g-3 mt-3">
                 <!-- Sales Pie Chart -->
                 <div class="col-md-6">
                     <div class="bg-white text-center rounded p-4">
